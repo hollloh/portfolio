@@ -1,0 +1,63 @@
+
+* {
+    background-color: #000;
+    text-align: center;
+  }
+  
+  html,
+  body {
+    max-width: 100%;
+    overflow-x: hidden;
+    background-color: #000;
+      }
+  
+  h1 {
+    color: #fff;
+    font-family: monospace;
+    margin: 5%;
+    padding: 20% 5% 35% 5%;
+  }
+  
+  p {
+    color: #fff;
+    font-family: monospace;
+    margin: 5%;
+    padding: 20% 5%;
+  }
+  
+  .ii {
+    color: #fff;
+    font-family: monospace;
+    margin: 1%;
+    padding: 1%;
+    z-index: 999;
+  }
+  
+  nav {
+    color: #fff;
+    font-family: monospace;
+    position: fixed;
+    top: 0;
+    width: 20%;
+    z-index: 99;
+  }
+  
+  .image {
+    background-color: #fff;
+    color: #000;
+    font-family: monospace;
+    margin: 5%;
+    padding: 20% 5%;
+  }
+  
+  a:link,
+  a:visited,
+  a:hover,
+  a:active {
+    color: #fff;
+    text-decoration: none;
+    font-family: monospace;
+  }
+  
+  
+  
