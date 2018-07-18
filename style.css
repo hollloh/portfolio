@@ -1,7 +1,7 @@
 * {
   background-color: #000;
   color: #0f0;
-  text-shadow: 0 0 10px #0f0;
+  /* text-shadow: 0 0 10px #0f0; */
   font-family: monospace;
   font-weight: 100;
   font-size: 15px;
@@ -29,8 +29,8 @@
   left: 0;
   display: flex;
   justify-content: space-between;
-  margin: 0 1px 1px 47px;
-  width: 50vw;
+  margin: 0 1px 1px 47px; /* overkill */
+  width: 50vw; /* overkill */
   z-index: 2;
 }
 
@@ -55,11 +55,16 @@
 }
 
 #welcome-section {
-/*height: calc(100vh +-(px) whatever passes the test);*/
   height: 100vh;
+/*
+  height: calc(100vh - 2px);
+*/
 }
 
-#welcome-section,
+#welcome-section h1 {
+  padding: 50vh 0 0 0;
+}
+
 #profile-link-section,
 #projects {
   padding: 46px 0 0 0;
@@ -90,6 +95,7 @@
 
 .project-link {
   border: none;
+  outline: none;
   background: transparent;
 }
 
